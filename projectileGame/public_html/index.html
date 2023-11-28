@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="fixed inset-0 flex items-center justify-center" id="window">
+        <div class="bg-white max-w-md w-full p-6 text-center">
+            <h1 id="big_score"class="text-4xl font-bold">0</h1><p class="text-sm text-gray-700">points</p>
+            <br>
+            <button id="start" class="bg-blue-500 text-white w-full py-3 rounded-full">Start Game</button>
+        </div>
+    </div>
+    <div class="fixed text-white select-none text-sm mt-2 ml-2"><span>Score: </span><span id="score">0</span></div>
+    <canvas id="my_canvas"></canvas>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>
